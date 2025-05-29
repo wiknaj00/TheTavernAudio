@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cf1c5b14-7cfc-4b99-b383-bc1849cbeb26}">
+		<property name="assetPath">
+			<value>Loops/medieval_tavern_loop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>207.609375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9cadaeb7-67d4-474f-b8e7-93870b8310a4}</destination>
+		</relationship>
+	</object>
+</objects>
