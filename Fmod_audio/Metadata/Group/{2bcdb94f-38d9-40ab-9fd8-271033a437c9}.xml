@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{2bcdb94f-38d9-40ab-9fd8-271033a437c9}">
+		<property name="color">
+			<value>Red Light 2</value>
+		</property>
+		<property name="name">
+			<value>RoomSnapshot</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{20e25b3e-084b-4fb3-9ddb-941c1c9af065}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{177baef6-3e89-407f-935e-1ac57c5b235b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{4294085b-6bf7-4d6a-86e3-4c8da3aa2e9e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{20e25b3e-084b-4fb3-9ddb-941c1c9af065}">
+		<relationship name="effects">
+			<destination>{4ac15eee-013a-41b2-af20-12938845b33a}</destination>
+			<destination>{58ceefb7-a22d-4c84-b89d-1330c3eeb041}</destination>
+			<destination>{a45e8e3a-249a-4717-a19b-91148d086dfa}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{177baef6-3e89-407f-935e-1ac57c5b235b}" />
+	<object class="MixerBusFader" id="{4ac15eee-013a-41b2-af20-12938845b33a}" />
+	<object class="MultibandEqEffect" id="{58ceefb7-a22d-4c84-b89d-1330c3eeb041}">
+		<property name="filterTypeA">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{a45e8e3a-249a-4717-a19b-91148d086dfa}" />
+</objects>

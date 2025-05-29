@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{c3a08703-f037-4d5e-a470-860f7d5ee437}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
+		<property name="name">
+			<value>FootstepsSystem</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f320ccbb-85c8-4a82-9856-cfa030de7063}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0ffacd8f-7058-4647-824a-ea40d65497e6}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{51f71aeb-c63e-4cba-9b5e-903699a17406}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f320ccbb-85c8-4a82-9856-cfa030de7063}">
+		<relationship name="effects">
+			<destination>{04dc7bf3-ad62-46d5-8ac0-3d7868cb4ed9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0ffacd8f-7058-4647-824a-ea40d65497e6}" />
+	<object class="MixerBusFader" id="{04dc7bf3-ad62-46d5-8ac0-3d7868cb4ed9}" />
+</objects>
