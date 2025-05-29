@@ -148,10 +148,10 @@ MonoBehaviour:
   Path: Fmod_audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638841112283150369
+  lastModified: 638841134771049628
   FileSizes:
   - Name: Desktop
-    Value: 6926432
+    Value: 6926304
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -184,7 +184,7 @@ MonoBehaviour:
   - {fileID: -1723277477780645834}
   StringsBanks:
   - {fileID: 9182155692500698971}
-  cacheTime: 638841112283170412
+  cacheTime: 638841134771064870
   cacheVersion: 131617
 --- !u!114 &1166770017764826896
 MonoBehaviour:
@@ -370,7 +370,7 @@ MonoBehaviour:
   - {fileID: -1723277477780645834}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters:
   - {fileID: 5443760793573836238}
   MinDistance: 1
@@ -446,7 +446,7 @@ MonoBehaviour:
   Path: Fmod_audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638841112283170412
+  lastModified: 638841134771064870
   FileSizes:
   - Name: Desktop
     Value: 1634
