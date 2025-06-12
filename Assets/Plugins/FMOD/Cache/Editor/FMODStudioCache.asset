@@ -79,6 +79,33 @@ MonoBehaviour:
   - Jump
   - Land
   Exists: 1
+--- !u!114 &-4742619752930933425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/FireOff
+  m_EditorClassIdentifier: 
+  Path: snapshot:/FireOff
+  Guid:
+    Data1: -1481484005
+    Data2: 1301033351
+    Data3: -973631589
+    Data4: -1189080353
+  Banks:
+  - {fileID: -1723277477780645834}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4032471469117164208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +160,32 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-3231087113035243545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fire/Fire
+  m_EditorClassIdentifier: 
+  Name: Fire
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3477001850
+    data2: 571564406
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - 1
+  - 0
+  Exists: 1
 --- !u!114 &-1723277477780645834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,10 +201,10 @@ MonoBehaviour:
   Path: Fmod_audio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638847167885984170
+  lastModified: 638853226176097186
   FileSizes:
   - Name: Desktop
-    Value: 6932704
+    Value: 6937376
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -179,12 +232,13 @@ MonoBehaviour:
   - {fileID: 6132481440632747839}
   - {fileID: 5848471440762695012}
   - {fileID: 7725935086413879612}
+  - {fileID: -4742619752930933425}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1723277477780645834}
   StringsBanks:
   - {fileID: 9182155692500698971}
-  cacheTime: 638847167885999214
+  cacheTime: 638853226176126838
   cacheVersion: 131617
 --- !u!114 &1166770017764826896
 MonoBehaviour:
@@ -265,7 +319,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -3231087113035243545}
   MinDistance: 1
   MaxDistance: 20
   Length: 55000
@@ -446,8 +501,8 @@ MonoBehaviour:
   Path: Fmod_audio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638847167885999214
+  lastModified: 638853226176126838
   FileSizes:
   - Name: Desktop
-    Value: 1634
+    Value: 1766
   Exists: 1

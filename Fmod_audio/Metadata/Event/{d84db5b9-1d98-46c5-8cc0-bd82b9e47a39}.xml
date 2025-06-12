@@ -100,6 +100,9 @@
 		<property name="timelockedOffset">
 			<value>7.5</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{f1e0c4a4-2b13-444a-b092-47fe7b9278ca}</destination>
 		</relationship>

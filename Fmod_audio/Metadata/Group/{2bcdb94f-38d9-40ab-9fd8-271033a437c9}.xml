@@ -28,7 +28,10 @@
 	<object class="MixerBusFader" id="{4ac15eee-013a-41b2-af20-12938845b33a}" />
 	<object class="MultibandEqEffect" id="{58ceefb7-a22d-4c84-b89d-1330c3eeb041}">
 		<property name="filterTypeA">
-			<value>0</value>
+			<value>7</value>
+		</property>
+		<property name="filterTypeB">
+			<value>7</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{a45e8e3a-249a-4717-a19b-91148d086dfa}" />

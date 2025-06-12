@@ -18,6 +18,7 @@ TagManager:
   - Spell
   - NewSpell
   - Inside_wood
+  - Fire_Off
   layers:
   - Default
   - TransparentFX

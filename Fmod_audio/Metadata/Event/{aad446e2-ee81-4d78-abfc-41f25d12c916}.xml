@@ -32,6 +32,9 @@
 		<relationship name="timeline">
 			<destination>{fb9226dd-edcf-417a-adea-24a25410cb58}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{8162ace9-fcb2-4847-aa18-019524e3a488}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{ff32fe18-dc7c-42cf-b84f-68c786a5ac7a}</destination>
 		</relationship>
@@ -54,7 +57,7 @@
 			<destination>{8876107e-118b-4c25-b59b-aefd7820354a}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{2bcdb94f-38d9-40ab-9fd8-271033a437c9}</destination>
+			<destination>{00e0ae50-a145-4171-95a8-2090e828546b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ae23cda5-6754-4b0e-9151-966f806ddf6f}" />
@@ -88,6 +91,11 @@
 			<destination>{5737e079-3d2f-4d54-b5df-b0556cfd5a09}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{8162ace9-fcb2-4847-aa18-019524e3a488}">
+		<relationship name="preset">
+			<destination>{10737fd1-1426-4239-bc5b-3f9729fdb257}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{461eb958-f7f6-45df-9b5c-978a3076b96f}">
 		<relationship name="effectChain">
 			<destination>{406a1dbe-fee5-47a1-891f-d9575cd70163}</destination>
@@ -112,6 +120,9 @@
 		<property name="length">
 			<value>50.5</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{cf6aac83-360e-4bd0-bffc-777b607199a0}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{554ae3c2-7093-42bc-acbc-5c3c87a8d3d1}</destination>
 		</relationship>
@@ -132,6 +143,9 @@
 		<property name="timelockedOffset">
 			<value>50.5</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{462740d1-dc93-45bb-a30d-1b4be62b3b4f}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{59973e42-da79-4b1e-a884-97a167c6f4fb}</destination>
 		</relationship>
@@ -163,6 +177,9 @@
 		<property name="length">
 			<value>50.5</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{95705d0f-1769-46a3-9603-d8df5f01febb}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{7ab9dc21-8065-42aa-bd37-3888c0a8431d}</destination>
 		</relationship>
@@ -183,6 +200,9 @@
 		<property name="timelockedOffset">
 			<value>50.5</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{04e3075f-4d69-4d53-b554-3731636ce129}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{567b0526-a759-41be-ad74-0987ef308e34}</destination>
 		</relationship>
@@ -229,6 +249,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{25902fa8-5735-4e30-9f99-cbffb12c3dbb}" />
 	<object class="MixerBusFader" id="{5176e678-d7ad-4e13-bb62-0e952aee2dcf}" />
+	<object class="ParameterCondition" id="{cf6aac83-360e-4bd0-bffc-777b607199a0}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{10737fd1-1426-4239-bc5b-3f9729fdb257}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{554ae3c2-7093-42bc-acbc-5c3c87a8d3d1}">
 		<relationship name="startPoint">
 			<destination>{1bab1473-4b5b-442d-abca-560cfa3f190b}</destination>
@@ -238,6 +269,17 @@
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{41ddd71f-2494-46cc-b8b1-c049e389ce9e}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{462740d1-dc93-45bb-a30d-1b4be62b3b4f}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{10737fd1-1426-4239-bc5b-3f9729fdb257}</destination>
 		</relationship>
 	</object>
 	<object class="FadeCurve" id="{59973e42-da79-4b1e-a884-97a167c6f4fb}">
@@ -257,6 +299,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8bad120b-aaac-4bfe-bd7b-c9e035913470}" />
+	<object class="ParameterCondition" id="{95705d0f-1769-46a3-9603-d8df5f01febb}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{10737fd1-1426-4239-bc5b-3f9729fdb257}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{7ab9dc21-8065-42aa-bd37-3888c0a8431d}">
 		<relationship name="startPoint">
 			<destination>{1a2dc6bf-aeaa-454d-a7d1-c6c9f5d2c051}</destination>
@@ -266,6 +319,17 @@
 		</relationship>
 		<relationship name="relatedModule">
 			<destination>{5d49f58d-8c7b-4446-bee1-47200906c69d}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{04e3075f-4d69-4d53-b554-3731636ce129}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{10737fd1-1426-4239-bc5b-3f9729fdb257}</destination>
 		</relationship>
 	</object>
 	<object class="FadeCurve" id="{567b0526-a759-41be-ad74-0987ef308e34}">

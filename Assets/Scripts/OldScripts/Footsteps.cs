@@ -194,26 +194,26 @@ public class Footsteps : MonoBehaviour
                     //Debug.Log("Hit object tag: " + hit.collider.tag);
                     if (hit.collider.CompareTag("Stone"))
                     {
-                        JumpSound.setParameterByNameWithLabel("FootSwitcher", "Stone");
-                        JumpSound.setParameterByNameWithLabel("Jumping", "Land");
+                        LandSound.setParameterByNameWithLabel("FootSwitcher", "Stone");
+                        LandSound.setParameterByNameWithLabel("Jumping", "Land");
                         LandSound.start();
                     }
                     else if (hit.collider.CompareTag("Wood"))
                     {
-                        JumpSound.setParameterByNameWithLabel("FootSwitcher", "Wood");
-                        JumpSound.setParameterByNameWithLabel("Jumping", "Land");
+                        LandSound.setParameterByNameWithLabel("FootSwitcher", "Wood");
+                        LandSound.setParameterByNameWithLabel("Jumping", "Land");
                         LandSound.start();
                     }
                     else if (hit.collider.CompareTag("Inside_stone"))
                     {
-                        JumpSound.setParameterByNameWithLabel("FootSwitcher", "Stone");
-                        JumpSound.setParameterByNameWithLabel("Jumping", "Land");
+                        LandSound.setParameterByNameWithLabel("FootSwitcher", "Stone");
+                        LandSound.setParameterByNameWithLabel("Jumping", "Land");
                         LandSound.start();
                     }
                     else if (hit.collider.CompareTag("Inside_wood"))
                     {
-                        JumpSound.setParameterByNameWithLabel("FootSwitcher", "Wood");
-                        JumpSound.setParameterByNameWithLabel("Jumping", "Land");
+                        LandSound.setParameterByNameWithLabel("FootSwitcher", "Wood");
+                        LandSound.setParameterByNameWithLabel("Jumping", "Land");
                         LandSound.start();
                     }
                     else if (hit.collider.CompareTag("Bed"))
@@ -223,8 +223,8 @@ public class Footsteps : MonoBehaviour
                     }
                     else
                     {
-                        JumpSound.setParameterByNameWithLabel("FootSwitcher", "Stone");
-                        JumpSound.setParameterByNameWithLabel("Jumping", "Land");
+                        LandSound.setParameterByNameWithLabel("FootSwitcher", "Stone");
+                        LandSound.setParameterByNameWithLabel("Jumping", "Land");
                         LandSound.start();
                     }
                 }
