@@ -209,6 +209,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9fbd771c-3c45-4157-a848-45b71335c7d9}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Wood_jump</value>
 		</property>
@@ -239,7 +242,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{67a6f1ca-cb80-41a5-8243-839dad303494}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-2</value>
 		</property>
 		<property name="name">
 			<value>Wood_land</value>

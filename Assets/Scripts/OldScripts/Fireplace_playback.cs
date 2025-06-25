@@ -6,21 +6,21 @@ using FMOD.Studio;
 
 public class Fireplace_playback : MonoBehaviour
 {
-    public FMODUnity.StudioEventEmitter fireplaceEmitter;
-    FMOD.Studio.EventInstance FireplaceEmitter;
-    //void start - przypisac event do instancji
+    public StudioEventEmitter fireplaceEmitter;
+    private EventInstance fireplaceInstance;
+
     private void Start()
     {
-        //FireplaceEmitter = FMODUnity.RuntimeManager.CreateInstance(fireplaceEmitter);
+        fireplaceInstance = fireplaceEmitter.EventInstance;
     }
 
     private void OnTriggerStay(Collider other)
     {
-        //fireplaceEmitter.setParameterByNameWithLabel("Fire", "0");
+        fireplaceInstance.setParameterByNameWithLabel("Fire", "0");
     }
 
     private void OnTriggerExit(Collider other)
     {
-        //fireplaceEmitter.setParameterByNameWithLabel("Fire", "1");
+        fireplaceInstance.setParameterByNameWithLabel("Fire", "1");
     }
 }

@@ -1933,8 +1933,8 @@ GameObject:
   - component: {fileID: 485849464}
   - component: {fileID: 485849463}
   - component: {fileID: 485849462}
-  - component: {fileID: 485849461}
   - component: {fileID: 485849465}
+  - component: {fileID: 485849466}
   m_Layer: 0
   m_Name: FireplaceTrigger
   m_TagString: Untagged
@@ -1942,28 +1942,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &485849461
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485849460}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &485849462
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2042,6 +2020,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireplaceEmitter: {fileID: 1929232999}
+--- !u!65 &485849466
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485849460}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 41.777172, y: 1.9760383, z: 13.5064945}
+  m_Center: {x: 15.888612, y: -0.058529988, z: 0.8104066}
 --- !u!1 &496232894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2780,7 +2779,7 @@ MonoBehaviour:
   walkSpeed: 6
   runSpeed: 12
   jumpPower: 6
-  gravity: 20
+  gravity: 22
   lookSpeed: 3
   lookXLimit: 45
   canMove: 1
@@ -5684,7 +5683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1597351830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5715,7 +5714,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 4
-  OverrideMaxDistance: 8
+  OverrideMaxDistance: 8.5
 --- !u!135 &1597351831
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7007,7 +7006,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1819037089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7674,8 +7673,8 @@ MonoBehaviour:
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 1
-  OverrideMinDistance: 10
-  OverrideMaxDistance: 10
+  OverrideMinDistance: 5
+  OverrideMaxDistance: 7
 --- !u!135 &1929233000
 SphereCollider:
   m_ObjectHideFlags: 0
