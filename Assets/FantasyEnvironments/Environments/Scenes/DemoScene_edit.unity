@@ -3007,11 +3007,11 @@ MonoBehaviour:
     Path: event:/Door
   insideRoomSnap:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 950587242
+      Data2: 1169864186
+      Data3: -678214527
+      Data4: -1826263566
+    Path: snapshot:/RoomAmb
 --- !u!1 &760055454
 GameObject:
   m_ObjectHideFlags: 0
@@ -4906,11 +4906,11 @@ MonoBehaviour:
     Path: event:/Door
   insideRoomSnap:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 950587242
+      Data2: 1169864186
+      Data3: -678214527
+      Data4: -1826263566
+    Path: snapshot:/RoomAmb
 --- !u!1 &1421538550
 GameObject:
   m_ObjectHideFlags: 0
